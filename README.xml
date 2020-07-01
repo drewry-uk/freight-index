@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?asciidoc-toc?>
+<?asciidoc-numbered?>
+<article xmlns="http://docbook.org/ns/docbook" xmlns:xl="http://www.w3.org/1999/xlink" version="5.0" xml:lang="en">
+<info>
+<title>Global Container Freight Contract Index</title>
+<date>2020-07-01</date>
+</info>
+<blockquote>
+<simpara>Abstract</simpara>
+</blockquote>
+<section xml:id="_motivation_reasoning">
+<title>Motivation &amp; Reasoning</title>
+<blockquote>
+<simpara>Container Index, Futures and Volatility</simpara>
+</blockquote>
+<simpara>-[x] Data Quality
+-[x] Auditing
+-[x] Reproducibility
+-[x] Informational Transparency</simpara>
+<simpara><emphasis role="strong">Data Lineage</emphasis> includes the data’s origins, what happens to it and where it moves over time. Data lineage gives visibility while greatly simplifying the ability to trace errors back to the root cause in a data analytics process.</simpara>
+<simpara><emphasis role="strong">Data Provenance</emphasis> refers to records of the inputs, entities, systems, and processes that influence data of interest, providing a historical record of the data and its origins. The generated evidence supports forensic activities such as data-dependency analysis, error/compromise detection and recovery, auditing, and compliance analysis.</simpara>
+<simpara>[source, Duke University](<link xl:href="http://people.duke.edu/~ccc14/duke-hts-2018/bioinformatics/data_provenance.html">http://people.duke.edu/~ccc14/duke-hts-2018/bioinformatics/data_provenance.html</link>)</simpara>
+<section xml:id="_data_integrity_and_procedures">
+<title>Data Integrity and Procedures</title>
+<simpara>SHA-256 hashes used properly can confirm both file integrity and authenticity
+Comparing hashes makes it possible to detect changes in files that would cause errors. The possibility of changes (errors) is proportional to the size of the file; the possibility of errors increase as the file becomes larger.
+[source, Ubuntu Documentation](<link xl:href="https://help.ubuntu.com/community/HowToSHA256SUM">https://help.ubuntu.com/community/HowToSHA256SUM</link>)</simpara>
+<simpara>-[x] Date formats are inconsistent
+-[x] An index masks underlying variation
+-[x] Results have been p-hacked
+-[x] Provenance is not documented
+-[x] Date formats are inconsistent
+-[x] Zeros replace missing values
+-[x] Author is untrustworthy
+-[x] Collection process is opaque
+-[x] Data assert unrealistic precision</simpara>
+</section>
+</section>
+<section xml:id="_conventions_and_specifications">
+<title>Conventions and Specifications</title>
+<simpara>Using conventions, documentation and specifications make it easier to:
+- communicate the problem you are solving
+- ease onboarding
+- build and use composable tools
+- promote open source contribution and engagement
+- promote issue and feature discussion on Github itself</simpara>
+<section xml:id="_resources">
+<title>Resources</title>
+<itemizedlist>
+<listitem>
+<simpara>[Drewry.co.uk](<link xl:href="https://drewry.co.uk/">https://drewry.co.uk/</link>)</simpara>
+</listitem>
+<listitem>
+<simpara>[Freight Trust and Clearing](<link xl:href="https://freighttrust.com/">https://freighttrust.com/</link>)</simpara>
+</listitem>
+</itemizedlist>
+</section>
+</section>
+<section xml:id="_getting_started">
+<title>Getting Started</title>
+<simpara>To get started, jump to the [drewry_container_index](/drewry_container_index) directory</simpara>
+<simpara><?asciidoc-hr?></simpara>
+</section>
+<section xml:id="_contributing">
+<title>Contributing</title>
+<simpara>How to contribute, build and release are outlined in [CONTRIBUTING.md](CONTRIBUTING.md), [BUILDING.md](BUILDING.md) and [RELEASING.md](RELEASING.md) respectively. Commits in this repository follow the [CONVENTIONAL_COMMITS.md](CONVENTIONAL_COMMITS.md) specification.</simpara>
+</section>
+<section xml:id="_license">
+<title>License</title>
+<simpara>2020 &#169; FreightTrust and Clearing Corporation</simpara>
+</section>
+</article>
